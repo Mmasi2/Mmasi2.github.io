@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Take-Action</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  <body>
+    
+    <nav>
+      <h2 class="logo">Take-Action</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="take-action.html">Take Action</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+      </ul>
+    </nav>
+
+    <section class="help">
+      <h2>Ways You Can Help</h2>
+      <ul>
+        <li>Encourage girls to explore STEM.</li>
+        <li>Support organization like Girls Who Code.</li>
+        <li>Challenge stereotypes about women in technology.</li>
+        <li>Share stories of women making a difference in tech.</li>
+        <li>Be an ally by promoting equal opportunities.</li>
+      </ul>
+    </section>
+   
+    <section id="take-action" class="action">
+      <h2>Tell us how YOU will support women in technology.</h2>
+      <label>Your Name</label>
+      <input type="text">
+
+      <label>Your School or City</label>
+      <input type="text">
+      <label>How can you help support women in technology?</label>
+      <textarea rows="5"></textarea>
+      <button id="messageBtn">Generate My Message</button>
+      <p id="messageOutput"></p>
+    </section>
+
+    <section>
+      <h2>Take The Pledge</h2>
+      <p>If you are really committed to supporting women in tech, join the movement to support women in technology. Enter your name and see your personalized pledge.</p>
+      <label for="name">Your name</label>
+      <input type="text" id="name">
+      <button id="pledgeBtn">Take the Pledge</button>
+      <p id="pledge"></p>
+      
+    </section>
+ </body>
+</html>
