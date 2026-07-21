@@ -25,6 +25,14 @@ section p{
   font-size: 18px;
 }
 
+footer{
+  background: #6c63ff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
 /* STYLE TEXT */
 
 h1 {
