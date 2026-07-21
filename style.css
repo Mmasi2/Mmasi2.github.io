@@ -1,0 +1,193 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+ background-color: #f8f6ff;
+ color: #333;
+}
+
+section{
+  padding: 70px 8%;
+}
+
+section h2{
+  color: #6c63ff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+section p{
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: black;
+}
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: #6c63ff;
+}
+
+.logo{
+  color: white;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover{
+  color: #ddd;
+}
+/* STYLE BUTTONS */
+.button, 
+button{
+  background: #6c63ff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+button:hover,
+.button:hover{
+  background: #5348e5;
+}
+/* ADD MORE! */
+.main{
+  min-height: 70vh;
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+  padding:80px 8%;
+  background: linear-gradient(135deg, #f8f6ff, #ddd7ff)
+}
+
+.main-text{
+  width: 50%;
+}
+
+.main h1{
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #6c63ff;
+}
+
+.main p{
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.main img{
+  width:40%;
+  border-radius: 20px;
+}
+
+.facts{
+  text-align: center;
+  padding: 70px 8%;
+}
+
+#factOutput{
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.action{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  padding: 70px 0;
+}
+
+.action h2{
+  margin-bottom: 25px;
+}
+
+.action label{
+  margin-top: 20px;
+}
+
+.action input,
+.action textarea{
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.action button{
+  margin-top: 30px;
+}
+
+#about{
+  padding: 70px 8%;
+  text-align: center;
+}
+
+.image-row{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-warp: wrap;
+}
+
+.image-row img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#pledge{
+  margin-top: 30px;
+  padding: 20px;
+  background: #ede7f6;
+  border-radius: 12px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+#name{
+  margin-top: 10px;
+}
+
+.help{
+  background: white;
+  margin: 40px auto;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.help li{
+  margin: 15px;
+  font-size: 18px;
+}
